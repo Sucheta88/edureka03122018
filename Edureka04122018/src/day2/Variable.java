@@ -9,7 +9,7 @@ public class Variable {
 		long myLongVar = 77447484937l;
 		double myDoubleVar = 74746.73736;
 		float myFloatVar = 54.746465f;
-		boolean myBooleanVar = true;
+		boolean myBooleanVar = false;
 		char myCharVar = '3';
 		System.out.println("Byte Variable :"+ myByteVar);
 		System.out.println("Float Variable is :"+ myFloatVar);
