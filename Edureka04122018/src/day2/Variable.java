@@ -5,7 +5,7 @@ public class Variable {
 		int firstNumber;
 		firstNumber = 2300;
 		System.out.println("First Number :"+ firstNumber);
-		byte myByteVar = 56;
+		byte myByteVar = 58;
 		long myLongVar = 77447484937l;
 		double myDoubleVar = 74746.73736;
 		float myFloatVar = 54.746465f;
