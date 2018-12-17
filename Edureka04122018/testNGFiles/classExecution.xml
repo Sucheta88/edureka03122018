@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Class Execution suite">
+  <test  name="Class test">
+    <classes>
+      <class name="da11.TestingBasics"/>
+    </classes>
+  </test> 
+</suite> 

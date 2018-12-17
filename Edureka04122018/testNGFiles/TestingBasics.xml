@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Basic Suite">
+  <test name="Basic Tests">
+  <groups>
+  <run>
+  <include name="Sanity"></include>
+  <include name="Regression"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="da11.TestingBasics"/>
+      
+    </classes>
+  </test> <!-- Basic Tests -->
+</suite> <!-- Testing Basic Suite -->

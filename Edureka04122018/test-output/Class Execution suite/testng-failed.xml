@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Class Execution suite]">
+  <test thread-count="5" name="Class test(failed)" parallel="classes">
+    <parameter name="password" value="h5@hdh"/>
+    <parameter name="userName" value="mngr166884"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="da11.Guru99">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- da11.Guru99 -->
+    </classes>
+  </test> <!-- Class test(failed) -->
+</suite> <!-- Failed suite [Class Execution suite] -->
