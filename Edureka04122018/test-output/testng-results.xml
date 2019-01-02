@@ -1,65 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Testing Basic Suite" duration-ms="37" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+  <suite name="Guru99 Test Suite" duration-ms="38101" started-at="2018-12-23T21:23:29Z" finished-at="2018-12-23T21:24:07Z">
     <groups>
       <group name="Sanity">
-        <method signature="TestingBasics.testCase2()[pri:3, instance:da11.TestingBasics@4520ebad]" name="testCase2" class="da11.TestingBasics"/>
-        <method signature="TestingBasics.testCase3()[pri:1, instance:da11.TestingBasics@4520ebad]" name="testCase3" class="da11.TestingBasics"/>
+        <method signature="Guru99.logIn(java.lang.String, java.lang.String)[pri:1000, instance:da11.Guru99@1753acfe]" name="logIn" class="da11.Guru99"/>
+        <method signature="Guru99.logIn(java.lang.String, java.lang.String)[pri:1000, instance:da11.Guru99@61832929]" name="logIn" class="da11.Guru99"/>
+        <method signature="Guru99.logIn(java.lang.String, java.lang.String)[pri:1000, instance:da11.Guru99@ae45eb6]" name="logIn" class="da11.Guru99"/>
       </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TestingBasics.testCase2()[pri:3, instance:da11.TestingBasics@4520ebad]" name="testCase2" class="da11.TestingBasics"/>
-        <method signature="TestingBasics.testCase4()[pri:2, instance:da11.TestingBasics@4520ebad]" name="testCase4" class="da11.TestingBasics"/>
-      </group> <!-- Regression -->
     </groups>
-    <test name="Basic Tests" duration-ms="37" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
-      <class name="da11.TestingBasics">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:da11.TestingBasics@4520ebad]" name="beforeClass" is-config="true" duration-ms="22" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+    <test name="Edge Basic Test" duration-ms="18798" started-at="2018-12-23T21:23:29Z" finished-at="2018-12-23T21:23:47Z">
+      <class name="da11.Guru99">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:da11.Guru99@61832929]" name="invokeBrowser" is-config="true" duration-ms="13383" started-at="2018-12-23T21:23:29Z" finished-at="2018-12-23T21:23:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testCase3()[pri:1, instance:da11.TestingBasics@4520ebad]" name="testCase3" duration-ms="15" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:1000, instance:da11.Guru99@61832929]" name="logIn" duration-ms="526" started-at="2018-12-23T21:23:42Z" finished-at="2018-12-23T21:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr166884]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h5@hdh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase3 -->
-        <test-method status="PASS" signature="executeBeforeTestCase()[pri:0, instance:da11.TestingBasics@4520ebad]" name="executeBeforeTestCase" is-config="true" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:da11.Guru99@61832929]" name="closeBrowser" is-config="true" duration-ms="4797" started-at="2018-12-23T21:23:43Z" finished-at="2018-12-23T21:23:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- executeBeforeTestCase -->
-        <test-method status="PASS" signature="executeBeforeTestCase()[pri:0, instance:da11.TestingBasics@4520ebad]" name="executeBeforeTestCase" is-config="true" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- da11.Guru99 -->
+    </test> <!-- Edge Basic Test -->
+    <test name="Chrome Basic Test" duration-ms="19578" started-at="2018-12-23T21:23:29Z" finished-at="2018-12-23T21:23:48Z">
+      <class name="da11.Guru99">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:da11.Guru99@1753acfe]" name="invokeBrowser" is-config="true" duration-ms="16423" started-at="2018-12-23T21:23:29Z" finished-at="2018-12-23T21:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- executeBeforeTestCase -->
-        <test-method status="PASS" signature="testCase4()[pri:2, instance:da11.TestingBasics@4520ebad]" name="testCase4" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:1000, instance:da11.Guru99@1753acfe]" name="logIn" duration-ms="2283" started-at="2018-12-23T21:23:45Z" finished-at="2018-12-23T21:23:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr166884]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h5@hdh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase4 -->
-        <test-method status="PASS" signature="executeAfterTestCase()[pri:0, instance:da11.TestingBasics@4520ebad]" name="executeAfterTestCase" is-config="true" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:da11.Guru99@1753acfe]" name="closeBrowser" is-config="true" duration-ms="864" started-at="2018-12-23T21:23:47Z" finished-at="2018-12-23T21:23:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- executeAfterTestCase -->
-        <test-method status="PASS" signature="executeAfterTestCase()[pri:0, instance:da11.TestingBasics@4520ebad]" name="executeAfterTestCase" is-config="true" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- da11.Guru99 -->
+    </test> <!-- Chrome Basic Test -->
+    <test name="Firefox Basic Test" duration-ms="38101" started-at="2018-12-23T21:23:29Z" finished-at="2018-12-23T21:24:07Z">
+      <class name="da11.Guru99">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:da11.Guru99@ae45eb6]" name="invokeBrowser" is-config="true" duration-ms="32835" started-at="2018-12-23T21:23:29Z" finished-at="2018-12-23T21:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- executeAfterTestCase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:da11.TestingBasics@4520ebad]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:1000, instance:da11.Guru99@ae45eb6]" name="logIn" duration-ms="1403" started-at="2018-12-23T21:24:01Z" finished-at="2018-12-23T21:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr166884]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h5@hdh]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="testCase2()[pri:3, instance:da11.TestingBasics@4520ebad]" name="testCase2" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:da11.Guru99@ae45eb6]" name="closeBrowser" is-config="true" duration-ms="3851" started-at="2018-12-23T21:24:03Z" finished-at="2018-12-23T21:24:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="executeAfterTestCase()[pri:0, instance:da11.TestingBasics@4520ebad]" name="executeAfterTestCase" is-config="true" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeAfterTestCase -->
-        <test-method status="PASS" signature="executeBeforeTestCase()[pri:0, instance:da11.TestingBasics@4520ebad]" name="executeBeforeTestCase" is-config="true" duration-ms="0" started-at="2018-12-17T19:51:26Z" finished-at="2018-12-17T19:51:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeBeforeTestCase -->
-      </class> <!-- da11.TestingBasics -->
-    </test> <!-- Basic Tests -->
-  </suite> <!-- Testing Basic Suite -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- da11.Guru99 -->
+    </test> <!-- Firefox Basic Test -->
+  </suite> <!-- Guru99 Test Suite -->
 </testng-results>

@@ -16,6 +16,18 @@ public class ExceptionHandling {
 		} catch (ArrayIndexOutOfBoundsException ex) {
 			System.out.println("Array index out of bound exception");
 		}
+		catch (IndexOutOfBoundsException ex) {
+			System.out.println("Index out of bound exception");
+		}
+		catch (RuntimeException ex) {
+			System.out.println("Runtime exception");
+		}
+		catch (Exception ex) {
+			System.out.println("exception");
+		}
+		finally {
+			System.out.println("I always execute");
+		}
 
 		System.out.println("After exception execution");
 	}
